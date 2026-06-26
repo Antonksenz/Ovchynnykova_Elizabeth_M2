@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  /* Централізація всього тексту та контенту */
+  text-align: center;
+  line-height: 1.6;
+  background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+/* Навігація */
+nav {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Контейнер для основної частини */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Список фактів (вирівнювання тексту для зручності читання) */
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Футер */
+footer {
+  padding: 40px;
+  border-top: 1px solid #ccc;
+  margin-top: 50px;
+}
+
+/* Зображення */
+img {
+  margin: 10px;
+}
+
+main h2{
+    color:yellow;
+}
+
+main p{
+    color:red;
+}
